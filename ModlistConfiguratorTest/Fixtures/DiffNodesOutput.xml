@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+    <ModSettings Class="ModManager.ModManagerSettings">
+        <SimpleStructure>
+            <ShowSatisfiedRequirements>False</ShowSatisfiedRequirements>
+        </SimpleStructure>
+        
+        <AddedItems>
+            <ItemTwo>true</ItemTwo>
+        </AddedItems>
+        
+        <RemovedItems>
+            <ItemTwo>true</ItemTwo>
+        </RemovedItems>
+        
+        <NestedSimpleStructure>
+            <NestOne>
+                <ItemTwo>false</ItemTwo>
+            </NestOne>
+        </NestedSimpleStructure>
+        
+        <NestedAdd>
+            <NestOne>
+                <ItemTwo>true</ItemTwo>
+            </NestOne>
+            <NestThree>
+                <ItemOne>true</ItemOne>
+            </NestThree>
+        </NestedAdd>
+        
+        <NestedRemove>
+            <NestOne>
+                <ItemOne>true</ItemOne>
+            </NestOne>
+            <NestThree>
+                <ItemOne>true</ItemOne>
+            </NestThree>
+        </NestedRemove>
+    </ModSettings>
+</SettingsBlock>

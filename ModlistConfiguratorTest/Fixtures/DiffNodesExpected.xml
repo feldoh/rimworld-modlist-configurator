@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+    <ModSettings Class="ModManager.ModManagerSettings">
+        <SimpleStructure>
+            <AddHugsLibToNewModLists>False</AddHugsLibToNewModLists>
+            <ShowSatisfiedRequirements>True</ShowSatisfiedRequirements>
+        </SimpleStructure>
+        
+        <AddedItems>
+            <ItemOne>true</ItemOne>
+        </AddedItems>
+        
+        <RemovedItems>
+            <ItemOne>true</ItemOne>
+            <ItemTwo>true</ItemTwo>
+        </RemovedItems>
+        
+        <NestedSimpleStructure>
+            <NestOne>
+                <ItemOne>true</ItemOne>
+                <ItemTwo>true</ItemTwo>
+            </NestOne>
+            <NestTwo>
+                <ItemOne>true</ItemOne>
+            </NestTwo>
+        </NestedSimpleStructure>
+        
+        <NestedAdd>
+            <NestOne>
+                <ItemOne>true</ItemOne>
+            </NestOne>
+            <NestTwo>
+                <A>true</A>
+            </NestTwo>
+        </NestedAdd>
+        
+        <NestedRemove>
+            <NestOne>
+                <ItemOne>true</ItemOne>
+                <ItemTwo>true</ItemTwo>
+            </NestOne>
+            <NestTwo>
+                <A>true</A>
+            </NestTwo>
+            <NestThree>
+                <ItemOne>true</ItemOne>
+            </NestThree>
+        </NestedRemove>
+    </ModSettings>
+</SettingsBlock>

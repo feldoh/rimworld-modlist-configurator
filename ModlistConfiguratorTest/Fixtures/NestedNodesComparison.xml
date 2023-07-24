@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SettingsBlock>
+    <ModSettings>
+        <Compatibilities>
+            <ReplaceStuff>True</ReplaceStuff>
+            <HarmonyLib>True</HarmonyLib>
+            <ModManager>True</ModManager>
+        </Compatibilities>
+    </ModSettings>
+</SettingsBlock>
