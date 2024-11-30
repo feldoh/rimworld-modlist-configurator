@@ -79,8 +79,15 @@ public class SettingsImporter
 
                 if (presetLocation is null)
                 {
-                    Log.Error($"No settings directory found for preset {name}");
-                    continue;
+                    if (fullPath.Name == "Settings" && fullPath.Exists)
+                    {
+                        presetLocation = fullPath;
+                    }
+                    else
+                    {
+                        Log.Error($"No settings directory found for preset {name}");
+                        continue;
+                    }
                 }
 
                 presets.Add(new Preset(name, label, version, presetLocation));
